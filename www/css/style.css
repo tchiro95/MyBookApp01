@@ -1,0 +1,42 @@
+@charset "utf-8";
+@import url(index.css);
+
+#contentsWrapper{
+    margin: 0;
+    padding: 0;
+
+    height: 90vh;
+    width: 90vw;
+    
+    position: fixed;
+    top: 5vh;
+    left: 5vw;
+    overflow: scroll;
+
+    white-space: nowrap;
+}
+
+#contentsWrapper li{
+    display: inline-block;
+
+    margin: auto;
+    list-style-type: none;
+    
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+    font-size: 80px;
+}
+
+#page00{
+    background: red;
+}
+
+#page01{
+    background:blue;
+}
+
+#page02{
+    background: green;
+}
